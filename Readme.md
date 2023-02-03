@@ -36,7 +36,7 @@ $html = curl_exec($session);
 Esse codigo acima acima irá importar o codigo html desse repositorio para o final do body do seu projeto e assim irá verificar o js, como pode conferir no arquivo main.html, para um exemplo completo veja o arquivo example.php
 
 ## Printscreen
-Mensagem mostrada após 5 segundos caso o navegador não permita.
+Mensagem mostrada após 5 segundos caso o navegador não permita o uso de Javascript.
 
 ![mensagem mostrada apos 5 segundos caso não permita js](/docs/img1.png "mensagem mostrada apos 5 segundos caso não permita js")
 
