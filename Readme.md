@@ -1,13 +1,13 @@
-# No Js mensage
+# Notice of desactived javascript 
 
-Arquvio que gera uma mensagem ao usuario, caso o js do mesmo não esteja ativado, mensagem esta, o indicando a ligar o javascript para utilizar o site corretamete.
+Esse projeto gera uma mensagem ao usuário caso o js do mesmo não esteja ativado, o indicando a ligar o javascript para utilizar o seu sistema corretamete.
 
 ## Features 
 - Pouca utilização de memoria / leve para rodar
 - Não atrapalha em nada o seu sistema já implementado
 - Pode ser implementado em 3 comandos de php (conferir abaixo)
 
-## Implement
+## Implementation
 
 Em seu arquivo php que você deseja implementar esse sistema, inclua o seguinte: 
 
@@ -36,6 +36,7 @@ $html = curl_exec($session);
 Esse codigo acima acima irá importar o codigo html desse repositorio para o final do body do seu projeto e assim irá verificar o js, como pode conferir no arquivo main.html, para um exemplo completo veja o arquivo example.php
 
 ## Printscreen
+Mensagem mostrada após 5 segundos caso o navegador não permita.
 
 ![mensagem mostrada apos 5 segundos caso não permita js](/docs/img1.png "mensagem mostrada apos 5 segundos caso não permita js")
 
